@@ -3,7 +3,7 @@ from logging.config import dictConfig
 
 import flet as ft
 
-from flet_router import Path, Redirect, Router
+from flet_router.router import Path, Redirect, Router
 
 dictConfig({
     'version': 1,
